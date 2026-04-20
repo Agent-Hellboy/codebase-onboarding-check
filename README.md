@@ -10,16 +10,6 @@ Only `SKILL.md` and `references/` ship here so you can copy or symlink the folde
 - Surface gaps and doc-vs-code drift before you ship changes.
 - Leave you with a short **readiness plan** (what to read next, a few safe starter tasks).
 
-This repository is the **skill package**, not an application. Point your coding agent at **your** project when you use the skill.
-
-## Layout
-
-| Path | Role |
-|------|------|
-| `SKILL.md` | Instructions for the agent (YAML frontmatter + workflow). |
-| `references/comprehension-checklists.md` | Question stems, coverage rubric, drift checklist. |
-| `references/adaptive-coaching.md` | Proficiency tiers, learning-kit shape, optional `state.jsonl` schema. |
-| `LICENSE` | MIT |
 
 ## Using it in Cursor
 
@@ -37,9 +27,6 @@ Restart or start a new agent chat after installing so the skill list refreshes.
 
 Optional persistence (if you follow `SKILL.md`): session lines can go under `$HOME/.cursor/state/codebase-onboarding-check/state.jsonl` or the fallbacks described in the skill. No separate server or binary is required.
 
-## Other providers
-
-For tools that use their own packaging (for example Codex or Claude Code), install the same directory layout where that product expects skills. The original idea still applies: add an `agents/<provider>.yaml` (or equivalent) in **your** config repo that points at this path and any extra prompt you want.
 
 ## License
 
