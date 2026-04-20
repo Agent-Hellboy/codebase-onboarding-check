@@ -1,6 +1,10 @@
 ---
 name: codebase-onboarding-check
 description: Onboard quickly by reading design docs, plans, READMEs, or the codebase to extract key concepts, surface gaps, and generate comprehension checks with answer keys. Includes an adaptive proficiency probe with learning resources and persistent session memory so the user can resume onboarding where they left off. Use when a user wants help understanding a project, validating their grasp of the architecture, or creating a readiness plan before contributing code.
+license: MIT
+metadata:
+  author: agent-hellboy
+  version: "1.0.0"
 ---
 
 # Codebase Onboarding Check
